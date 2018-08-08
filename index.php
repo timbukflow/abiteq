@@ -6,7 +6,6 @@
 </head>
 
 <body>
-    <div class="sticky">stiky</div>
     <div class="nav"></div>
     
     <div class="grid">
@@ -16,7 +15,7 @@
             </h1>
         </div>
         
-        <div class="panel-2">
+        <div class="panel-2 sticky">
            <div class="img-1 inview-left"></div>
         </div>
         
@@ -24,7 +23,7 @@
             <div class="img-2 inview-top"></div>
         </div>
     </div>
-    <div class="sticky">asdfsdaf</div>    
+    <div class="next">asdfsdaf</div>    
         
     
     
