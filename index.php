@@ -6,8 +6,8 @@
 </head>
 
 <body>
-    
-    <div class="button"></div>
+    <div class="sticky">stiky</div>
+    <div class="nav"></div>
     
     <div class="grid">
         <div class="panel-1">
@@ -17,13 +17,15 @@
         </div>
         
         <div class="panel-2">
-           <div class="img-1 inview"></div>
+           <div class="img-1 inview-left"></div>
         </div>
         
         <div class="panel-3">
-            <div class="img-2 inview"></div>
+            <div class="img-2 inview-top"></div>
         </div>
     </div>
+    <div class="sticky">asdfsdaf</div>    
+        
     
     
     

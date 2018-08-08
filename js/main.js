@@ -1,8 +1,9 @@
 $(document).ready(function () {
 
     $(function() {
-    $('.inview').removeClass('inview');
-});
+        $('.inview-left').removeClass('inview-left');
+        $('.inview-top').removeClass('inview-top');
+    });
 });
 
 
