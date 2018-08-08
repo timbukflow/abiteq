@@ -140,11 +140,6 @@ textarea {
     transition:         margin-top 2s, opacity 2s;
 }
 
-.grid:hover .content {
-    margin-top: 0px;
-    opacity: 0;
-}
-
 .panel-2, .panel-3{
     width: 40%;
     height: calc(80vh - 20px);
@@ -175,13 +170,8 @@ textarea {
     transition:         left 1.5s ease-in-out, top 1.5s ease-in-out;
 }
 
-
-.grid:hover .img-1  {
+.inview {
     left: 100%;
-}
-
-.grid:hover .img-2 {
-    top: 100%;
 }
 
 

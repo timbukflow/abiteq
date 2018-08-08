@@ -11,7 +11,7 @@
     
     <div class="grid">
         <div class="panel-1">
-            <h1 class="content inview">
+            <h1 class="content">
                 Für die komplexe und zeitintensive Entwicklung von Immobilien-Projekten sind Know-How, Flexibilität und Ausdauer wichtige Erfolgsfaktoren. 
             </h1>
         </div>
