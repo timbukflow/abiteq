@@ -7,7 +7,7 @@
 
 <body>
     
-    <div class="nav inview-top">
+    <div class="nav">
         <a class="first-nav-point" href="#">Logo</a>
         <a class="nav-point" href="#">Projects</a>
         <a class="nav-point" href="#">About</a>
@@ -17,28 +17,23 @@
     <div class="slider-container">
         
         <div class="title-container-left">
-            <h1 class="content inview-text">
+            <h1 class="content">
                 Gac 
             </h1>
         </div>
         <div class="title-container-right">
-            <h1 class="content inview-text">
+            <h1 class="content">
                 aos 
             </h1>
         </div>
 
-        <div class="img-container-left">
-            <div class="img-1 left inview-left"></div>
-            <a class="button" href="#">01 Projekt</a>
-        </div>
-        <div class="img-container-right">
-            <div class="img-2 right inview-right"></div>
-            <a class="button" href="#">02 Projekt</a>
+        <div class="img-container-left img-container-full">
+            <div class="img-1"></div>
         </div>
         
     </div>
     
-    <div class="next">asdfsdaf</div>    
+    <div class="contante">description</div>    
         
     
     

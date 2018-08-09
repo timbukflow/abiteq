@@ -105,101 +105,231 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.next {
-    width: 100%;
-    height: 500px;
-    background-color: #ffffff;
-}
-
 .nav {
     position: fixed;
     top: 0px;
-    width: 100%;
+    margin: 0 5%;
+    width: 90%;
     height: 50px;
-    background-color: azure;
+    z-index: 100;
+    -webkit-transition: top 2.0s ease-in-out;
+    transition:         top 2.0s ease-in-out;
 }
 
-.grid {
+.first-nav-point {
+    display: inline-block;
+    width: 40%;
+    padding: 20px;
+}
+
+.nav-point {
+    display: inline-block;
+    width: 20%;
+    padding: 20px;
+    margin-left: -4px;
+    text-align: center;
+}
+
+a.first-nav-point, a.nav-point {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    word-spacing: 0px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+a:link {
+    color: #1a1a1a;
+}
+
+a:visited {
+    color: #1a1a1a;
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+a:active {
+    color: palevioletred;
+}
+
+
+/* ============================ */
+
+
+.slider-container {
     margin: 10px;
     width: calc(100% - 20px);
     height: calc(100vh - 20px);
     overflow: hidden;
 }
 
-.panel-1 {
-    width: 20%;
+.img-container-left {
+    width: 50%;
     height: calc(100vh - 20px);
     float: left;
+    overflow: hidden;
+    -webkit-transition: all 1.5s ease-in-out;
+    transition:         all 1.5s ease-in-out;
+}
+
+.img-container-right{
+    width: 50%;
+    height: calc(100vh - 20px);
+    float: left;
+    overflow: hidden;
+        -webkit-transition: all 1.5s ease-in-out;
+    transition:         all 1.5s ease-in-out;
+}
+
+.img-container-full{
+    width: 100%;
+}
+
+.img-container-zero{
+    width: 0%;
+    float: right;
+}
+
+.img-1, .img-2  {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 20px);
+    width: 100%;
+    position: relative;
+    transform: scale(1);
+    -webkit-transition: all 1.5s ease-in-out;
+    transition:         all 1.5s ease-in-out;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+.img-1 {background-image: url('../img/architektur.jpg');}
+.img-2 {background-image: url('../img/architektur-2.jpg');}
+
+a.button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    word-spacing: 0px;
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    position: absolute;
+    bottom: 7px;
+    padding: 15px;
+    display: none;
+    z-index: 101;
+}
+
+
+.title-container-left, .title-container-right {
+    width: calc(50% - 10px);
+    position: absolute;
+    bottom: 0px;
+    overflow: hidden;
+    text-align: right;
+}
+
+.title-container-right {
+    right: 0px;
+    text-align: left;
 }
 
 .content {
-    font-weight: normal;
-    color: #000000;
-    letter-spacing: 1pt;
-    word-spacing: 2pt;
-    font-size: 25px;
-    text-align: left;
-    font-family: helvetica, sans-serif;
-    line-height: 1.2;
-    margin-top: 210px;
-    padding: 31px;
-    position: absolute;
-    z-index: 1;
-    width: 40%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 250px;
+    letter-spacing: 20px;
+    line-height: 2.8;
+    word-spacing: 0px;
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    z-index: 99;
+    position: relative;
+    padding: 0;
     opacity: 1;
-    
-    -webkit-transition: margin-top 2s, opacity 2s;
-    transition:         margin-top 2s, opacity 2s;
+    margin-bottom: 10px;
+    -webkit-transition: all 1.5s ease-in-out;
+    transition:         all 1.5s ease-in-out;
 }
 
-.panel-2, .panel-3{
-    width: 40%;
-    height: calc(80vh - 20px);
-    margin-top: 20vh;
-    float: left;
-    overflow: hidden;
+.inview-text {
+    opacity: 0;
+    margin-bottom: -100px;
 }
 
-.panel-2 {
-    z-index: 100;
-}
+
 
 .test {
     position: fixed;
 }
 
-.img-1 {
-    background-image: url('../img/architektur.jpg');
-}
-
-.img-2 {
-    background-image: url('../img/architektur-2.jpg');
-}
-
-.img-1, .img-2  {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-    border-radius: 0px;
-    position: relative;
-    left: 0;
-    top: 0;
-    -webkit-transition: left 1.5s ease-in-out, top 1.5s ease-in-out;
-    transition:         left 1.5s ease-in-out, top 1.5s ease-in-out;
-}
 
 .inview-left {
-    left: 100%;
+    left: 130%
+}
+
+.inview-right {
+    right: 130%;
 }
 
 .inview-top {
-    left: 100%;
+    top: -100%;
 }
 
+.next {
+    width: 100%;
+    height: 500px;
+    background-color: #ffffff;
+}
 
+.contante {
+    width: 50%;
+    height: 1000px;
+    position: relative;
+    float: right;
+    background-color: #fff;
+    margin-right: 10px;
+    padding: 30px;
+    padding-top: 25px;
+    top: 0px;
+    -webkit-transition: all 2s ease-in-out;
+    transition:         all 2s ease-in-out;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    word-spacing: 0px;
+    color: #275022;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    
+}
 
+.contanteFade {
+    top: -70px;
+}
 
 
 /* ==========================================================================
