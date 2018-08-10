@@ -12,12 +12,8 @@ $(document).ready(function () {
     
     $(window).scroll(function() {
         if ($(document).scrollTop() > 100) {
-            $(".left").addClass("inview-left");
-            $(".right").addClass("inview-right");
             $('h1').addClass('inview-text');
         } else {
-            $('.left').removeClass('inview-left');
-            $(".right").removeClass("inview-right");
             $('h1').removeClass('inview-text');
         }
     });
