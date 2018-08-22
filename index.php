@@ -7,12 +7,14 @@
 
 <body>
     
-    <header class="nav-right">
-        <a href="#" class="toggle-menu">
+    <header class="nav-icon-container">
+        <a href="#" class="nav-icon">
             <span class="bar-1"></span>
             <span class="bar-2"></span>
         </a>
     </header>
+    <div class="nav-fadein-container"></div>
+    
     
     <div class="slider-container">
         <div class="img-container-left">
