@@ -7,26 +7,14 @@
 
 <body>
     
-    <div class="nav inview-top">
-        <a class="first-nav-point" href="#">Logo</a>
-        <a class="nav-point" href="#">Projects</a>
-        <a class="nav-point" href="#">About</a>
-        <a class="nav-point" href="#">Contact</a>
-    </div>
+    <header class="nav-right">
+        <a href="#" class="toggle-menu">
+            <span class="bar-1"></span>
+            <span class="bar-2"></span>
+        </a>
+    </header>
     
     <div class="slider-container">
-        
-        <div class="title-container-left">
-            <h1 class="content inview-text">
-                Gac 
-            </h1>
-        </div>
-        <div class="title-container-right">
-            <h1 class="content inview-text">
-                aos 
-            </h1>
-        </div>
-
         <div class="img-container-left">
             <div class="img-1 left inview-left"></div>
             <a class="button" href="#">01 Projekt</a>

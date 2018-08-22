@@ -105,43 +105,60 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.nav {
+
+/* ==========================================================================
+   Navigation Right
+   ========================================================================== */
+
+.nav-right {
     position: fixed;
+    width: 120px;
+    height: 100vh;
     top: 0px;
-    margin: 0 5%;
-    width: 90%;
-    height: 50px;
+    right: 0px;
     z-index: 100;
-    -webkit-transition: top 2.0s ease-in-out;
-    transition:         top 2.0s ease-in-out;
 }
 
-.first-nav-point {
-    display: inline-block;
-    width: 40%;
-    padding: 20px;
+.toggle-menu {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 40px;
+    right: 40px;
 }
 
-.nav-point {
-    display: inline-block;
-    width: 20%;
-    padding: 20px;
-    margin-left: -4px;
-    text-align: center;
+.bar-1, .bar-2 {
+    position: absolute;
+    height: 5px;
+    background-color: black;
+    -webkit-transition: width 0.5s ease-in-out;
+    transition:         width 0.5s ease-in-out;
 }
 
-a.first-nav-point, a.nav-point {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    letter-spacing: 0.8px;
-    word-spacing: 0px;
-    color: #000000;
-    font-weight: 400;
-    text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: none;
+.bar-1 {
+    width: 20px;
+    top: 0;
+    right: 0;
 }
+
+.bar-2 {
+    width: 40px;
+    bottom: 0;
+    right: 0;
+}
+
+.toggle-menu:hover .bar-1 {
+    width: 40px
+}
+
+.toggle-menu:hover .bar-2 {
+    width: 20px
+}
+
+
+
+
+
 
 a:link {
     color: #1a1a1a;
@@ -152,7 +169,7 @@ a:visited {
 }
 
 a:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    
 }
 
 a:active {
