@@ -2,7 +2,7 @@ $(document).ready(function () {
     
 ////////////// Navigation Right //////////////
     
-    $('.nav-icon').click(function() {
+    $('.nav-icon-container').click(function() {
         $('.bar-1').toggleClass('bar-close-1');
         $('.bar-2').toggleClass('bar-close-2');
         $('.nav-fadein-container').toggleClass('nav-fadein');
