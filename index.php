@@ -6,6 +6,10 @@
 </head>
 
 <body>
+    <!-- navigation logo -->
+    <div class="nav-logo-container">
+        <img src="img/abiteq-investment-logo.svg" alt="abiteq-investment-logo" > 
+    </div>
     <!-- navigation icon -->
     <div class="nav-icon-container">
         <div class="nav-icon">
@@ -19,12 +23,14 @@
     </div>
     
     <!-- start slider container -->
-    <div class="start-slider-container">
-            <div class="img-first"></div>
+    <div class="full-slider-container">
+        <div class="img-first" id="rorschacherberg-sulzbergstrasse-01"></div>
+        <h1 class="slider-title">Rorschacherberg Sulzbergstrasse</h1>
+        <div class="diagonal-slider-container">
+            <div class="img-second" id="rorschacherberg-sulzbergstrasse-02"></div>
+        </div>
     </div>
-    
-    <div class="next">asdfsdaf</div>    
-        
+
     
     
     
