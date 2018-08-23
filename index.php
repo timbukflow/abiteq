@@ -20,12 +20,18 @@
     <!-- navigation fadin -->
     <div class="nav-fadein-container">
         <div class="nav-fadein-form"></div>
+        <div class="nav-list-container">
+            <a href="angebot" class="nav-list a">Angebot</a>
+            <a href="projekt" class="nav-list b">Projekte</a>
+            <a href="kontakt" class="nav-list c">Kontakt</a>
+        </div>
     </div>
+    
     
     <!-- start slider container -->
     <div class="full-slider-container">
         <div class="img-first" id="rorschacherberg-sulzbergstrasse-01"></div>
-        <h1 class="slider-title">Rorschacherberg Sulzbergstrasse</h1>
+        <h1 class="slider-title custom">Projekt<br><span>Rorschacherberg</span></h1>
         <div class="diagonal-slider-container">
             <div class="img-second" id="rorschacherberg-sulzbergstrasse-02"></div>
         </div>

@@ -6,6 +6,12 @@ $(document).ready(function () {
         $('.bar-1').toggleClass('bar-close-1');
         $('.bar-2').toggleClass('bar-close-2');
         $('.nav-fadein-container').toggleClass('nav-fadein');
+        
+        
+        $('.nav-list:nth-child(1)').toggleClass('a');
+        $('.nav-list:nth-child(2)').toggleClass('b');
+        $('.nav-list:nth-child(3)').toggleClass('c');
+
     });
     
     
@@ -15,7 +21,7 @@ $(document).ready(function () {
     $(function() {
         $('div').removeClass('inview-left inview-right inview-top');
         $('h1').removeClass('inview-text');
-        $('.button').delay(2000).fadeIn(400);
+        $('.button').delay(800).fadeIn(400);
         $('.contante').addClass('contanteFade');
     });
     

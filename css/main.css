@@ -105,14 +105,17 @@ textarea {
    Author's custom styles
    ========================================================================== */
 h1 {
-    font-family: 'PT Serif', serif;
-    font-weight: lighter;
-    font-size: 24px;
-    letter-spacing: 0.8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 21px;
+    letter-spacing: 1px;
     color: white;
-    -webkit-hyphens: auto;
-            hyphens: auto;
 }
+
+h1 span {
+    font-weight: 400;
+}
+
 
 /* =====================================
    Navigation Logo
@@ -222,6 +225,50 @@ h1 {
     right: 0px;
 }
 
+/* === Navigation Right Fadein List === */
+
+.nav-list-container {
+    position: absolute;
+    right: 40px;
+    top: 35vh;
+    z-index: 100;
+}
+
+.nav-list {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    text-align: right;
+    letter-spacing: 1.75px;
+    line-height: 1.5;
+    display: block;
+    text-decoration: none;
+    position: relative;
+    right: 0px;
+    -webkit-transition: right 1.5s; 
+            transition: right 1.5s;
+}
+
+a.nav-list:link {
+    color: white;
+}
+
+a.nav-list:visited {
+    color: #1a1a1a;
+}
+
+a.nav-list:hover {
+    color: #1a1a1a;
+}
+
+a.nav-list:active {
+    color: palevioletred;
+}
+
+.a {right: -800px;}
+.b {right: -600px;}
+.c {right: -300px;}
+
 /* =====================================
    start slider container
    ===================================== */
@@ -230,7 +277,7 @@ h1 {
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    position: relative;
+    position: relative;  
 }
 
 .slider-title {
@@ -276,31 +323,6 @@ h1 {
 }
 #rorschacherberg-sulzbergstrasse-02 {
     background-image: url('../img/abiteq-investment-rorschacherberg-sulzbergstrasse-02.jpg');
-}
-
-
-
-
-
-
-
-
-
-
-a:link {
-    color: #1a1a1a;
-}
-
-a:visited {
-    color: #1a1a1a;
-}
-
-a:hover {
-    
-}
-
-a:active {
-    color: palevioletred;
 }
 
 
