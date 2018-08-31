@@ -29,13 +29,31 @@
     
     
     <!-- start slider container -->
-    <div class="full-slider-container">
-        <div class="img-first" id="rorschacherberg-sulzbergstrasse-01"></div>
-        <h1 class="slider-title custom">Projekt<br><span>Rorschacherberg</span></h1>
-        <div class="diagonal-slider-container">
-            <div class="img-second" id="rorschacherberg-sulzbergstrasse-02"></div>
+    <div class="slidermainContainer">
+        <div class="sliderContainer1 buttonNext buttonNext1">
+            <div class="img-first1 active1" id="s01a"></div>
+            <div class="img-first1" id="s02a"></div>
+            <div class="img-first1" id="s03a"></div>
+            <div class="img-first1" id="s04a"></div>
+        </div>
+        <div class="sliderContainerText">
+            <div class="text activetext">   <h1>Rorschacherberg<br><span>Sulzbergstrasse</span></h1> <h1 class="w">&#8594;</h1></div>
+            <div class="text">              <h1>Wollishofen    <br><span>am Wyberg</span></h1>       <h1 class="w">&#8594;</h1></div>
+            <div class="text">              <h1>Wittenbach     <br><span>Bruggwaldpark</span></h1>   <h1 class="w">&#8594;</h1></div>
+            <div class="text">              <h1>Speicher       <br><span>Linde</span></h1>           <h1 class="w">&#8594;</h1></div>
+        </div>
+        <div class="sliderContainer2 buttonNext buttonNext2">
+            <div class="sliderContainerstraight">
+                <div class="img-first2 active2" id="s01b"></div>
+                <div class="img-first2"         id="s02b"></div>
+                <div class="img-first2"         id="s03b"></div>
+                <div class="img-first2"         id="s04b"></div>
+            </div>
         </div>
     </div>
+    
+    
+    
 
     
     
