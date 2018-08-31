@@ -171,7 +171,7 @@ h1 span {
 .bar-1, .bar-2 {
     position: absolute;
     height: 5px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: all 0.3s ease-in-out; 
     transition:         all 0.3s ease-in-out;
 }
