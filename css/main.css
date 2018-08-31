@@ -171,7 +171,7 @@ h1 span {
 .bar-1, .bar-2 {
     position: absolute;
     height: 5px;
-    background-color: white;
+    background-color: black;
     -webkit-transition: all 0.3s ease-in-out; 
     transition:         all 0.3s ease-in-out;
 }
@@ -302,7 +302,7 @@ a.nav-list:active {
     overflow: hidden;
     position: absolute;
     z-index: 1;
-    cursor: url('../img/abiteq-cursor-2.png')30 30, auto;
+    cursor: url('../img/abiteq-cursor-1.png')30 30, auto;
 }
 
 .img-first1 {
@@ -338,7 +338,7 @@ a.nav-list:active {
     overflow: hidden;
     position: absolute;
     z-index: 2;
-    cursor: url('../img/abiteq-cursor-1.png')30 30, auto;
+    cursor: url('../img/abiteq-cursor-2.png')30 30, auto;
 
     -ms-    transform: matrix(1, 0, -0.3, 1, 0, 0); /* IE 9 */
     -webkit-transform: matrix(1, 0, -0.3, 1, 0, 0); /* Safari */

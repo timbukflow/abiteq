@@ -8,7 +8,7 @@
 <body>
     <!-- navigation logo -->
     <div class="nav-logo-container">
-        <img src="img/abiteq-investment-logo.svg" alt="abiteq-investment-logo" > 
+        <img src="img/abiteq-investment-a.svg" alt="abiteq-investment-logo" > 
     </div>
     <!-- navigation icon -->
     <div class="nav-icon-container">
@@ -30,7 +30,7 @@
     
     <!-- start slider container -->
     <div class="slidermainContainer">
-        <div class="sliderContainer1 buttonNext buttonNext1">
+        <div class="sliderContainer1 buttonNext">
             <div class="img-first1 active1" id="s01a"></div>
             <div class="img-first1" id="s02a"></div>
             <div class="img-first1" id="s03a"></div>
@@ -42,7 +42,7 @@
             <div class="text">              <h1>Wittenbach     <br><span>Bruggwaldpark</span></h1>   <h1 class="w">&#8594;</h1></div>
             <div class="text">              <h1>Speicher       <br><span>Linde</span></h1>           <h1 class="w">&#8594;</h1></div>
         </div>
-        <div class="sliderContainer2 buttonNext buttonNext2">
+        <div class="sliderContainer2 buttonNext">
             <div class="sliderContainerstraight">
                 <div class="img-first2 active2" id="s01b"></div>
                 <div class="img-first2"         id="s02b"></div>
