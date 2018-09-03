@@ -37,10 +37,18 @@
             <div class="img-first1" id="s04a"></div>
         </div>
         <div class="sliderContainerText">
-            <div class="text activetext">   <h1>Rorschacherberg<br><span>Sulzbergstrasse</span></h1> <h1 class="w">&#8594;</h1></div>
-            <div class="text">              <h1>Wollishofen    <br><span>am Wyberg</span></h1>       <h1 class="w">&#8594;</h1></div>
-            <div class="text">              <h1>Wittenbach     <br><span>Bruggwaldpark</span></h1>   <h1 class="w">&#8594;</h1></div>
-            <div class="text">              <h1>Speicher       <br><span>Linde</span></h1>           <h1 class="w">&#8594;</h1></div>
+            <a class="linktimeout text activetext" href="projekt">
+                <h1>Rorschacherberg<br><span>Sulzbergstrasse</span></h1> <h1 class="w">&#8594;</h1>
+            </a>
+            <a class="linktimeout text" href="...">
+                    <h1>Wollishofen<br><span>am Wyberg</span></h1>    <h1 class="w">&#8594;</h1>
+            </a>
+            <a class="linktimeout text" href="...">
+                    <h1>Wittenbach <br><span>Bruggwaldpark</span></h1><h1 class="w">&#8594;</h1>
+            </a>
+            <a class="linktimeout text" href="...">
+                    <h1>Speicher   <br><span>Linde</span></h1>        <h1 class="w">&#8594;</h1>
+            </a>
         </div>
         <div class="sliderContainer2 buttonNext">
             <div class="sliderContainerstraight">

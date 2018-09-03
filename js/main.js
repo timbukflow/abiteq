@@ -1,14 +1,12 @@
 $(document).ready(function () {
     
     
-//////////////////////////// navigation ////////////////////////////
-    
+/// navigation ///
     
     $('.nav-icon-container').click(function() {
         $('.bar-1').toggleClass('bar-close-1');
         $('.bar-2').toggleClass('bar-close-2');
         $('.nav-fadein-container').toggleClass('nav-fadein');
-        
         
         $('.nav-list:nth-child(1)').toggleClass('a');
         $('.nav-list:nth-child(2)').toggleClass('b');
@@ -17,7 +15,7 @@ $(document).ready(function () {
     });
     
     
-//////////////////////////// slider function ////////////////////////////
+/// slider function ///
  
     
     $('.buttonNext').click(function() {
@@ -64,6 +62,25 @@ $(document).ready(function () {
         currentImg2.removeClass('active2');
         currentafterImg2.removeClass('after2');
     });
+    
+    
+/// slider function go to project ///
+    
+    
+    $('.sliderContainerText').click(function() {
+        $('.sliderContainer2').addClass('sC2fadeout');
+        $('.img-first1').addClass('sC1full');
+    });
+    
+    
+/// set Timeout to a Link ///
+
+    $('.linktimeout').click(function(linktimeout) {
+        linktimeout.preventDefault();
+        setTimeout(function(url) { 
+            window.location = url }, 3000, this.href);
+    });
+    
     
     /*
     

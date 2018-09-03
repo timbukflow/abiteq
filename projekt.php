@@ -7,33 +7,35 @@
 
 <body>
     
-    <div class="nav">
-        <a class="first-nav-point" href="#">Logo</a>
-        <a class="nav-point" href="#">Projects</a>
-        <a class="nav-point" href="#">About</a>
-        <a class="nav-point" href="#">Contact</a>
+    <!-- navigation logo -->
+    <div class="nav-logo-container">
+        <a href="index"><img src="img/abiteq-investment-a.svg" alt="abiteq-investment-logo" ></a> 
+    </div>
+    <!-- navigation icon -->
+    <div class="nav-icon-container">
+        <div class="nav-icon">
+            <span class="bar-1"></span>
+            <span class="bar-2"></span>
+        </div>
+    </div>
+    <!-- navigation fadin -->
+    <div class="nav-fadein-container">
+        <div class="nav-fadein-form"></div>
+        <div class="nav-list-container">
+            <a href="angebot" class="nav-list a">Angebot</a>
+            <a href="projekt" class="nav-list b">Projekte</a>
+            <a href="kontakt" class="nav-list c">Kontakt</a>
+        </div>
     </div>
     
-    <div class="slider-container">
-        
-        <div class="title-container-left">
-            <h1 class="content">
-                Gac 
-            </h1>
-        </div>
-        <div class="title-container-right">
-            <h1 class="content">
-                aos 
-            </h1>
-        </div>
-
-        <div class="img-container-left img-container-full">
-            <div class="img-1"></div>
-        </div>
-        
-    </div>
     
-    <div class="contante">description</div>    
+    <!-- start slider container -->
+    <div class="slidermainContainer">
+        <div class="sliderContainer1 ">
+            <div class="img-first1 active1 sC1full" id="s01a"></div>
+            
+        </div>
+    </div>    
         
     
     
