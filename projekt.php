@@ -30,12 +30,18 @@
     
     
     <!-- start slider container -->
-    <div class="slidermainContainer">
+    <div class="projektmainContainer">
         <div class="sliderContainer1 ">
             <div class="img-first1 active1 sC1full" id="s01a"></div>
-            
         </div>
-    </div>    
+    </div>   
+    
+    <div class="projektContainer">halllooo
+        <div class="projektDescription">
+            Projektbeschreibung
+        </div>
+        
+    </div>
         
     
     

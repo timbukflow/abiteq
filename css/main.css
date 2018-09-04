@@ -416,9 +416,16 @@ a.nav-list:active {
     background-color: white;
     cursor: url(../img/abiteq-cursor-3.png)30 30, auto;
     
+    -webkit-transition: left 0.8s ease-in-out;
+    transition:         left 0.8s ease-in-out;
+    
     -ms-    transform: matrix(1, 0, -0.3, 1, 0, 0); /* IE 9 */
     -webkit-transform: matrix(1, 0, -0.3, 1, 0, 0); /* Safari */
             transform: matrix(1, 0, -0.3, 1, 0, 0); /* Standard syntax */ 
+}
+
+.sCTfadout {
+    left: -1000px;
 }
 
 .text {
@@ -427,6 +434,7 @@ a.nav-list:active {
     position: absolute;
     left: -300px;
     text-decoration: none;
+    cursor: url(../img/abiteq-cursor-3.png)30 30, auto;
     
     -webkit-transition: left 0.8s ease-in-out;
     transition:         left 0.8s ease-in-out;
@@ -441,6 +449,45 @@ a.nav-list:active {
     
 }
 
+/* =====================================
+   projekte
+   ===================================== */
+
+.projektmainContainer {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative; 
+}
+
+.projektContainer {
+    width: 100%;
+    background-color: white;
+    height: 2000px;
+    position: relative;
+}
+
+.projektDescription {
+    top: 0;
+    width: 50%;
+    height: 100px;
+    right: -15px;
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    
+    -webkit-transition: top 1s ease-in-out; /* Safari */
+            transition: top 1s ease-in-out;
+
+    -ms-    transform: matrix(1, 0, -0.3, 1, 0, 0); /* IE 9 */
+    -webkit-transform: matrix(1, 0, -0.3, 1, 0, 0); /* Safari */
+            transform: matrix(1, 0, -0.3, 1, 0, 0); /* Standard syntax */   
+
+}
+
+.pDfadeIn {
+    top: -100px;
+}
 
 /* ==========================================================================
    Helper classes

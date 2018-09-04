@@ -70,6 +70,8 @@ $(document).ready(function () {
     $('.sliderContainerText').click(function() {
         $('.sliderContainer2').addClass('sC2fadeout');
         $('.img-first1').addClass('sC1full');
+        $('.sliderContainerText').addClass('sCTfadout');
+        
     });
     
     
@@ -78,9 +80,12 @@ $(document).ready(function () {
     $('.linktimeout').click(function(linktimeout) {
         linktimeout.preventDefault();
         setTimeout(function(url) { 
-            window.location = url }, 3000, this.href);
+            window.location = url }, 1000, this.href);
     });
     
+    $(function() {
+        $('.projektDescription').addClass('pDfadeIn');
+    });
     
     /*
     
