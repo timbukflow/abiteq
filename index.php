@@ -8,7 +8,7 @@
 <body>
     <!-- navigation logo -->
     <div class="nav-logo-container">
-        <img src="img/abiteq-investment-a.svg" alt="abiteq-investment-logo" > 
+        <img src="img/abiteq-investment-logo.svg" alt="abiteq-investment-logo" > 
     </div>
     <!-- navigation icon -->
     <div class="nav-icon-container">
