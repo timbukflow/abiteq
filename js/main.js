@@ -84,7 +84,7 @@ $(document).ready(function () {
     });
     
     $(function() {
-        $('.projektDescription').addClass('pDfadeIn');
+        $('.projektContainerDescription').addClass('pDfadeIn');
     });
     
     /*

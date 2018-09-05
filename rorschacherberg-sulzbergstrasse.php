@@ -36,11 +36,14 @@
         </div>
     </div>   
     
-    <div class="projektContainer">halllooo
-        <div class="projektDescription">
-            Projektbeschreibung
-        </div>
-        
+    <div class="projektContainer">
+        <div class="projektContainerDescription">
+            <div class="projektDescription">
+                <div class="description">
+                    <h1>Rorschacherberg <span>Sulzbergstrasse</span></h1>
+                </div>
+            </div>
+        </div>    
     </div>
         
     

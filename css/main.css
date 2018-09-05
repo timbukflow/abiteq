@@ -268,15 +268,15 @@ a.nav-list:link {
 }
 
 a.nav-list:visited {
-    color: #1a1a1a;
+    color: white;
 }
 
 a.nav-list:hover {
-    color: #1a1a1a;
+    color: white;
 }
 
 a.nav-list:active {
-    color: palevioletred;
+    color: white;
 }
 
 .a {right: -800px;}
@@ -324,6 +324,7 @@ a.nav-list:active {
 
 .sC1full {
     width: 100%;
+    position: fixed;
 }
 
 .active1 {
@@ -457,7 +458,7 @@ a.nav-list:active {
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    position: relative; 
+    position: relative;
 }
 
 .projektContainer {
@@ -465,10 +466,22 @@ a.nav-list:active {
     background-color: white;
     height: 2000px;
     position: relative;
+    z-index: 2;
+}
+
+.projektContainerDescription {
+    top: 0px;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    z-index: 2;
+    overflow: hidden;
+    
+    -webkit-transition: top 1s ease-in-out; /* Safari */
+            transition: top 1s ease-in-out;
 }
 
 .projektDescription {
-    top: 0;
     width: 50%;
     height: 100px;
     right: -15px;
@@ -481,8 +494,15 @@ a.nav-list:active {
 
     -ms-    transform: matrix(1, 0, -0.3, 1, 0, 0); /* IE 9 */
     -webkit-transform: matrix(1, 0, -0.3, 1, 0, 0); /* Safari */
-            transform: matrix(1, 0, -0.3, 1, 0, 0); /* Standard syntax */   
+            transform: matrix(1, 0, -0.3, 1, 0, 0); /* Standard syntax */  
+}
 
+.description {
+    position: relative;
+    left: -20px;
+    -ms-    transform: matrix(1, 0, 0.3, 1, 0, 0); /* IE 9 */
+    -webkit-transform: matrix(1, 0, 0.3, 1, 0, 0); /* Safari */
+            transform: matrix(1, 0, 0.3, 1, 0, 0); /* Standard syntax */
 }
 
 .pDfadeIn {

@@ -6,9 +6,10 @@
 </head>
 
 <body>
+    
     <!-- navigation logo -->
     <div class="nav-logo-container">
-        <img src="img/abiteq-investment-a.svg" alt="abiteq-investment-logo" > 
+        <a href="index"><img src="img/abiteq-investment-a.svg" alt="abiteq-investment-logo" ></a> 
     </div>
     <!-- navigation icon -->
     <div class="nav-icon-container">
@@ -29,35 +30,22 @@
     
     
     <!-- start slider container -->
-    <div class="slidermainContainer">
-        <div class="sliderContainer1 buttonNext">
-            <div class="img-first1 active1" id="s01a"></div>
-            <div class="img-first1" id="s02a"></div>
-            <div class="img-first1" id="s03a"></div>
+    <div class="projektmainContainer">
+        <div class="sliderContainer1 ">
+            <div class="img-first1 active1 sC1full" id="s03a"></div>
         </div>
-        <div class="sliderContainerText">
-            <a class="linktimeout text activetext" href="rorschacherberg-sulzbergstrasse">
-                <h1>Rorschacherberg<br><span>Sulzbergstrasse</span></h1> <h1 class="w">&#8594;</h1>
-            </a>
-            <a class="linktimeout text" href="wollishofen-am-wyberg">
-                    <h1>Wollishofen<br><span>am Wyberg</span></h1>    <h1 class="w">&#8594;</h1>
-            </a>
-            <a class="linktimeout text" href="wittenbach-bruggwaldpark">
-                    <h1>Wittenbach <br><span>Bruggwaldpark</span></h1><h1 class="w">&#8594;</h1>
-            </a>
-        </div>
-        <div class="sliderContainer2 buttonNext">
-            <div class="sliderContainerstraight">
-                <div class="img-first2 active2" id="s01b"></div>
-                <div class="img-first2"         id="s02b"></div>
-                <div class="img-first2"         id="s03b"></div>
+    </div>   
+    
+    <div class="projektContainer">
+        <div class="projektContainerDescription">
+            <div class="projektDescription">
+                <div class="description">
+                    <h1>Wittenbach <span>Bruggwaldpark</span></h1>
+                </div>
             </div>
-        </div>
+        </div>    
     </div>
-    
-    
-    
-
+        
     
     
     
